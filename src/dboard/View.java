@@ -12,6 +12,7 @@ public class View extends JPanel {
     JScrollPane scrollPane;
 
     public View(){
+        
         String[] columnNames = {"ID","First_Name","Last_Name","Phone","Email","Address"};
 
         tableModel = new DefaultTableModel(columnNames, 0);
